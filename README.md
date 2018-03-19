@@ -42,6 +42,8 @@ ORDER BY
 
 * African wildlife.
 
+![African wildlife](https://i.imgur.com/FJOPhLZ.jpg)
+
 * Entity Relationship Diagram.
 * How we model the data **before** writing any SQL.
 * Tables contain multiple things so we name them in plural.
