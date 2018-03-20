@@ -1,3 +1,7 @@
+DROP TABLE specieses;
+DROP TABLE habitats;
+DROP TABLE pray_preditor;
+
 CREATE TABLE specieses (
   id INTEGER PRIMARY KEY,
   species_name VARCHAR(50),
@@ -24,3 +28,9 @@ VALUES (1, "crocodile", "below", 1),
 (3, "chimp", "🍌", 2),
 (4, "red monkey", "🐒", 2),
 (5, "vulture", "🐦", 2);
+
+INSERT INTO pray_preditor (pray_id, preditor_id)
+VALUES (4, 1), (3, 1), (2, 1), (1, 1), -- Crocodile
+(2, 2), (3, 2), (4, 2), -- leapard
+(4, 3), -- chimp
+(1, 5), (2, 5), (3, 5), (4, 5), (5, 5);
